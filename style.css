@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  width: 320px;
+  padding: 24px;
+  text-align: center;
+  position: relative;
+}
+#character-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #eee;
+}
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+button {
+  font-size: 1.2em;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.left {
+  background: #ebadad;
+  color: #d33;
+}
+.right {
+  background: #56d367;
+  color: #393;
+}
+#results {
+  margin-top: 20px;
+}
