@@ -35,11 +35,11 @@ button {
   cursor: pointer;
 }
 .left {
-  background: #ebadad;
+  background: #56d367;
   color: #d33;
 }
 .right {
-  background: #56d367;
+  background: #ebadad;
   color: #393;
 }
 #results {

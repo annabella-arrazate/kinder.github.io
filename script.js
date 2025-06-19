@@ -1,8 +1,9 @@
 // Sample character data
 const profiles = [
-  { name: "Hermione Granger", img: "imgs/hermione.png", desc: "Bookworm, loyal friend, always prepared." },
-  { name: "Tony Stark", img: "imgs/tony.png", desc: "Genius, billionaire, playboy, philanthropist." },
-  { name: "Katniss Everdeen", img: "imgs/katniss.png", desc: "Survivor, courageous, skilled with a bow." }
+  { name: "Hermione Granger", img: "imgs/hermione.png", desc: "Bookworm, loyal friend, always prepared. Quote: 'Aren't You Two Ever Going to Read Hogwarts, A History?'" },
+  { name: "Tony Stark", img: "imgs/tony.png", desc: "Genius, billionaire, playboy, philanthropist. Quote: 'I told you, I don’t want to join your super-secret boy band.'" },
+  { name: "Katniss Everdeen", img: "imgs/katniss.png", desc: "Survivor, courageous, caring, persistant. Quote: 'If he wants me broken, then I will have to be whole.'" },
+  { name: "Mitsukuni Haninozuka", img: "imgs/honey.png", desc: "Deceptively cute, sweet tooth, full of energy. Quote: 'A person who can't care about himself can't protect anyone, I think.'" }
 ];
 let current = 0;
 const results = [];
